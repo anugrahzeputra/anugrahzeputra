@@ -1,101 +1,81 @@
-# 👋 Hi, I’m Anu (aka Zee, Putra, or Gira)
+# 👋 Hey, I’m Anu (aka Zee / Putra / Gira)
 
-Welcome to my GitHub! I'm a passionate **software engineer** based in **Jakarta, Indonesia**, specializing in **back-end development** with **Java Spring Boot** and **PHP**, and dabbling in **front-end technologies** like **React.js** and **Angular**. I love diving into new technologies, especially in the fields of **artificial intelligence** and **cross-platform development**.
+> *"Humanizing technology to make life more easier."*  
+> *Tech is my blood and Research is my bone.*
 
----
+I’m a **Backend & Fullstack Software Engineer** and **Agentic AI Builder** based in **Indonesia**.  
+I live for the moment a working creation comes alive because I asked *"why?"* and *"what if?"*—mixing systems, protocols, and AI agents into tools that actually make life and engineering cleaner.
 
-## 🔭 Current Focus Areas
-
-Here are the projects and areas I'm currently working on:
-
-### 🚀 **AI & Chatbots**
-Building advanced chat-based assistants with **Natural Language Processing (NLP)** and **Large Language Models (LLM)**, exploring persona-based interactions to create smarter, more personal AI companions.
-
-### 📱 **Cross-platform Apps**
-Developing **cross-platform applications** (chat-based to-do apps, note-taking tools) that incorporate AI for enhanced task management and smarter user experiences.
-
-### 🎮 **Game Development**
-Working on a **2D game-based portfolio website**, inspired by Adventure Quest, where storytelling blends with interactive character-driven experiences. This is my creative outlet for showcasing my projects and skills in a more engaging way.
-
-### 💡 **Open-source Projects**
-Experimenting with and building solutions in the open-source world:
-- **API Client Library**: A generic library for handling REST APIs.
-- **Event-Driven Data Call System**: Prototyping a scalable system to handle asynchronous data operations.
-- **qRPC-socket**: A unique project inspired by **gRPC** and **WebSocket** to create an efficient, real-time communication protocol.
+[![Portfolio](https://img.shields.io/badge/Portfolio-anugrahatwork.com-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.anugrahatwork.com)
+[![GitHub](https://img.shields.io/badge/GitHub-anugrahzeputra-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anugrahzeputra)
 
 ---
 
-## 📚 Technology Stack & Skills
+## 🤖 Agentic AI & My Engineering Workflow
 
-Here's a quick overview of the technologies and tools I frequently work with:
+I treat AI not as a fancy autocomplete, but as an **autonomous engineering layer**—running **Antigravity 2.0** on my own home server to provision environments, control local workflows, and turn ideas into working systems fast.
 
-### Back-end:
-- **Java** (Spring Boot)
-- **PHP**
-- **Node.js**
-
-### Front-end:
-- **React.js**
-- **Angular**
-
-### Databases:
-- **MySQL**
-- **PostgreSQL**
-- **MongoDB**
-
-### Cross-Platform Development:
-- **React Native**
-- **Flutter**
-
-### AI & NLP:
-- **Python** (TensorFlow, Hugging Face)
-- **Natural Language Processing (NLP)**
-- **Large Language Models (LLM)**
-
-### DevOps & Cloud:
-- **Docker**
-- **AWS**
-- **Kubernetes**
+My daily development loop is built around a clean, systematic pipeline:
+1. **Knowledge Mapping**: Repos, Jira tickets, and Confluence docs mapped into **Obsidian** as a structured knowledge graph.
+2. **Rules & Templates**: Custom prompt templates and guardrails aligned with project and company standards.
+3. **Isolated Review Loops**: Separate agent sessions dedicated strictly to **code hygiene** and **impact analysis** before anything lands.
+4. **Automated Delivery**: Single-session CI/CD orchestration across **GitLab**, **Jenkins**, **kubectl**, and **ArgoCD**.
 
 ---
 
-## 🛠️ Open-source Contributions
+## 🛠️ What I’m Building
 
-I believe in the power of open-source collaboration and I'm working on several projects that are free for anyone to use or contribute to:
+### Personal Tools & Infrastructure
+- **`plancli` & [anugrahatwork.com](https://www.anugrahatwork.com)** — A Go CLI bridging **Microsoft Planner** and my **PersonaOS** portfolio ledger:
+  - Logs daily engineering activity and saves progress as git commits.
+  - Includes a **custom Cloudflare-backed tunnel/gateway** (on port `9999`) that routes `*.anugrahatwork.com` subdomains directly to local services (e.g., `db.anugrahatwork.com` → local DB app).
+  - Powers an automated, NDA-safe CV & timeline generation pipeline.
+- **[askr.ink](https://github.com/anugrahzeputra/askr.ink)** — Fast, minimalist link shortener & shortcut service built with TypeScript.
+- **[githook](https://github.com/anugrahzeputra/githook)** & **[githook-cli](https://github.com/anugrahzeputra/githook-cli)** — Go webhook service and CLI for automating GitHub project workflows.
+- **[math-foundation-book](https://github.com/anugrahzeputra/math-foundation-book)** — Mathematical theory and code implementations for understanding Machine Learning from scratch.
+- **[project-journal](https://github.com/anugrahzeputra/project-journal)** — Engineering journal documenting architecture notes and ongoing builds.
+- **[auto_gippity](https://github.com/anugrahzeputra/auto_gippity)** — Rust-based AI agent experimentation.
 
-- **[API Client Library](#)**: A JavaScript-based library aimed at generalizing REST API requests for easier integration into various projects.
-- **[qRPC-socket](#)**: A real-time protocol project inspired by gRPC and WebSocket for low-latency communication.
-
-Feel free to explore, fork, and contribute to any of my repositories! I'm always excited to collaborate and grow together with the community.
-
----
-
-## 🌱 What I’m Learning
-
-I'm constantly exploring new technologies to stay on the cutting edge. Here are a few areas I'm focusing on right now:
-- **Dart & Flutter** for cross-platform app development.
-- **GraphQL** for API development.
-- Advanced **AI & Machine Learning** models with a focus on **NLP**.
-
----
-
-## 🤝 Let's Collaborate!
-
-I'm always on the lookout for creative and challenging projects, particularly in:
-- **AI**: Developing intelligent systems that learn and adapt.
-- **Automation**: Building tools that enhance productivity.
-- **Game Development**: Creating immersive and interactive experiences.
-
-Feel free to reach out if you're interested in collaborating on a project or just want to chat about technology!
+### Anuverse Ecosystem ([AnuverseHQ](https://github.com/AnuverseHQ))
+- **[qRPC-Socket](https://github.com/AnuverseHQ/qRPC-Socket)** — Rust-based protocol experiment merging gRPC, GraphQL-style queries, and WebSockets.
+- **[Seraph](https://github.com/AnuverseHQ/Seraph)** & **[Throne](https://github.com/AnuverseHQ/Throne)** — Language-agnostic frontend & backend data interchange libraries.
+- **[Obelisk](https://github.com/AnuverseHQ/Obelisk)**, **[Elementum](https://github.com/AnuverseHQ/Elementum)**, **[Arcanum](https://github.com/AnuverseHQ/Arcanum)**, **[PseudoFlow](https://github.com/AnuverseHQ/PseudoFlow)** — Developer experience tools spanning web DB clients, layout engines, component CLIs, and IDE pseudocode mirroring.
 
 ---
 
-## 📫 How to Reach Me
+## 📚 Tech Stack
 
-- [LinkedIn](#)
-- [Twitter](#)
-- [Email](#)
+| Domain | Technologies |
+| :--- | :--- |
+| **Backend & CLI** | Java (Spring Boot, Maven, iText, JasperReports), Go (Cobra CLI), Rust, Node.js, PHP |
+| **Frontend & Mobile** | TypeScript, Next.js, React, Angular, Tailwind CSS, Kotlin, Swift, Flutter |
+| **Infra, CI/CD & Cloud** | GitLab, Jenkins, ArgoCD, Kubernetes (`kubectl`), Docker, Cloudflare Tunnels, Terraform, Vercel |
+| **Databases & Knowledge** | PostgreSQL, MySQL, MongoDB, Obsidian |
+| **AI & Agents** | Antigravity 2.0, LLM Workflows, Prompt Engineering, Python |
 
 ---
 
-**Let's build something amazing together!**
+## 🧠 How I Think & Work
+
+- **Pragmatic Problem Solver**: Give me a concrete example or constraint first, and I’ll reverse-engineer a working solution from it—then generalize.
+- **Resourceful Builder**: I love mixing and matching concepts across domains (like cutting a bottle into a cup when there’s no glass around, or turning a CLI into a local Cloudflare reverse-proxy).
+- **Anti-Hero with a Good Heart**: I enjoy exploring gray lines in strategy, games, and systems—but I choose kindness, fairness, and responsibility for the people I care about.
+- **Perpetual Learner**: Currently diving deeper into **Agentic AI engineering**, **compilers/interpreters** (*Crafting Interpreters*), and **product thinking**.
+
+<details>
+<summary>📖 Books, Stories & Off-Screen Interests</summary>
+
+- **Tech, Product & Strategy**: *Crafting Interpreters*, *Inspired*, *The Personal MBA*, *The First 20 Hours*, *Value Proposition Design*, *The 48 Laws of Power*, *The Art of War*, *Games People Play*
+- **Fiction & Characters I Enjoy**: *Game of Thrones*, *Hunter x Hunter*, *Harry Potter*, *Sword Art Online* — drawn to tactical minds like Tony Stark, Lelouch, Riku Dola, Tyrion Lannister, and Lord Varys.
+- **Offline**: Swimming, basketball, chess, board games, novels/comics, and medieval/tactical sports.
+
+</details>
+
+---
+
+## 🤝 Let’s Connect
+
+Always down to talk **Agentic AI**, **developer tooling**, **backend architecture**, or **weirdly resourceful side projects**.
+
+- 🌐 Portfolio: [anugrahatwork.com](https://www.anugrahatwork.com)
+- ✉️ Email: [z.putra.anugrah101@gmail.com](mailto:z.putra.anugrah101@gmail.com)
