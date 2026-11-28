@@ -30,7 +30,6 @@ My daily development loop is built around a clean, systematic pipeline:
   - Logs daily engineering activity and saves progress as git commits.
   - Includes a **custom Cloudflare-backed tunnel/gateway** (on port `9999`) that routes `*.anugrahatwork.com` subdomains directly to local services (e.g., `db.anugrahatwork.com` → local DB app).
   - Powers an automated, NDA-safe CV & timeline generation pipeline.
-- **[askr.ink](https://github.com/anugrahzeputra/askr.ink)** — Fast, minimalist link shortener & shortcut service built with TypeScript.
 - **[githook](https://github.com/anugrahzeputra/githook)** & **[githook-cli](https://github.com/anugrahzeputra/githook-cli)** — Go webhook service and CLI for automating GitHub project workflows.
 - **[math-foundation-book](https://github.com/anugrahzeputra/math-foundation-book)** — Mathematical theory and code implementations for understanding Machine Learning from scratch.
 - **[project-journal](https://github.com/anugrahzeputra/project-journal)** — Engineering journal documenting architecture notes and ongoing builds.
